@@ -24,7 +24,7 @@ public class App {
                     try {
                         chaves.add(Integer.parseInt(linha));
                     } catch (NumberFormatException e) {
-                        System.err.println("Linha ignorada (não numérica): " + linha);
+                        System.err.println("Linha ignorada (não numerica): " + linha);
                     }
                 }
             }
