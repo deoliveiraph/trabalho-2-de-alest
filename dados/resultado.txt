@@ -1,0 +1,4 @@
+50
+30
+Quantidade de visitados: 2
+Valor encontrado!
