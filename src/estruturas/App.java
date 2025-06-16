@@ -1,5 +1,5 @@
 package estruturas;
-//Pedro Henrique de Oliveira Silveira ;)
+//Pedro Henrique de Oliveira Silveiragit remote set-url origin https://github.com/deoliveiraph/alest1-25-1-trabalho-2.git
 
 import java.io.*;
 import java.util.*;
@@ -24,7 +24,7 @@ public class App {
                     try {
                         chaves.add(Integer.parseInt(linha));
                     } catch (NumberFormatException e) {
-                        System.err.println("Linha ignorada (não numerica): " + linha);
+                        System.err.println("Linha ignorada (não numégit rebase --abortrica): " + linha);
                     }
                 }
             }
