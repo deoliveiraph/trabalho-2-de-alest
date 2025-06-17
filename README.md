@@ -1,4 +1,5 @@
 # Trabalho 2 - Alest 1
+
 Trabalho 2 - Alest 1
 Descrição
 Este projeto implementa uma Árvore Binária de Pesquisa em Java, com métodos para inserção, caminhamentos (pré-ordem, pós-ordem, central e por largura) e busca de chaves.
@@ -7,10 +8,15 @@ A aplicação lê um arquivo de entrada com valores inteiros, constrói a árvor
 
 Estrutura do Projeto
 src/estruturas/ArvoreBinariaPesquisa.java: Implementação da árvore binária de pesquisa e seus métodos.
+
 src/estruturas/App.java: Lê o arquivo de entrada, executa a lógica principal e gera os arquivos de saída.
+
 src/estruturas/Main.java: Classe principal para execução da aplicação.
+
 entrada.txt: Arquivo de entrada com os valores inteiros (um por linha, a última linha é a chave de busca).
+
 dados/: Diretório gerado com os arquivos de saída.
+
 Funcionamento
 Leitura do arquivo de entrada
 O arquivo entrada.txt deve conter, em cada linha, um número inteiro.
@@ -30,6 +36,8 @@ preordem.txt: Pré-ordem
 posordem.txt: Pós-ordem
 central.txt: Em ordem (central)
 largura.txt: Por largura (níveis)
+
+
 Busca
 A chave da última linha é pesquisada na árvore.
 O arquivo resultado.txt contém:
@@ -44,13 +52,21 @@ Crie um arquivo chamado entrada.txt no diretório do projeto, exemplo:
 
 
 10
+
 5
+
 15
+
 3
+
 7
+
 12
+
 18
+
 7
+
 (Neste exemplo, a chave a ser buscada é 7)
 
 
@@ -84,5 +100,8 @@ Observações
 O projeto não utiliza bibliotecas externas.
 O diretório dados/ será criado automaticamente se não existir.
 Em caso de erro no arquivo de entrada, mensagens de erro serão exibidas no console.
+
+
+
 Autor
 Pedro Henrique de Oliveira Silveira<hr></hr>
